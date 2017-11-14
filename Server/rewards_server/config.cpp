@@ -60,7 +60,7 @@ class CfgRewards
 		AllowedRewardGivers[] = 
 		{
 			"12341234123412340", //admin uid 1
-			"dms_mission", //classname for server usage
+			"dms_mission", //name for server usage
 			"event",
 			"mission"
 		};

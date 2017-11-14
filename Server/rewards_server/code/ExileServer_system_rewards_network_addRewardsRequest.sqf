@@ -15,10 +15,7 @@
  
 //Example Usage:
 // From infistar to player ["addRewardsRequest", ["UID_OF_PLAYER_TARGET", [["ExileScore",1000],["ExileMoney",2000],"Exile_Item_Flag","Exile_Item_SafeKit"]]] call ExileClient_system_network_send;
-/*
-["addRewardsRequest", [getplayeruid player, [["ExileScore",1000],["ExileMoney",2000],"Exile_Item_Flag","Exile_Item_SafeKit",["Exile_Car_Lada_Green",3],"Exile_Chopper_Huey_Green"]]] call ExileClient_system_network_send;
 
-*/
 // From server to player ["dms_mission", ["UID_OF_PLAYER_TARGET", [["ExileScore",1000],["ExileMoney",2000],"Exile_Item_Flag","Exile_Item_SafeKit"]]] call ExileServer_system_rewards_network_addRewardsRequest;
  
 private ["_sessionID", "_parameters", "_targetUID", "_rewards", "_check", "_bad", "_player", "_allowedRewardGivers", "_playerObject", "_playerUID", "_targetPlayerObject", "_targetSessionID", "_rewardsData", "_hasRewardsPlayer", "_classname", "_index", "_current", "_amt", "_responseCode"];
