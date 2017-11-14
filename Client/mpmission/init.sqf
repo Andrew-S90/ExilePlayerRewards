@@ -30,7 +30,7 @@ _center = [_position,_position,0];
 _lockers = nearestObjects [_center, ["Exile_Locker"], worldSize];
 
 {
-	_x addAction ["<t color='#FF0000'>Rewards Vendor</t>", {[] call ExileClient_gui_rewardsDialog_show;},"",-4,true ,true ,"","true",3];
+	_x addAction ["<t color='#FF0000'>Rewards</t>", {[] call ExileClient_gui_rewardsDialog_show;},"",-4,true ,true ,"","true",3];
 } forEach _lockers;
 
 /* ~~ Rewards Claim Vendor by Andrew_S90 Script End ~~ */
